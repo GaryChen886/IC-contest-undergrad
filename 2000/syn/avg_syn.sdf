@@ -1,0 +1,13 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "avg")
+(DATE "Tue Jan 18 23:55:58 2022")
+(VENDOR "slow")
+(PROGRAM "Synopsys Design Compiler (R) NXT cmos")
+(VERSION "Q-2019.12")
+(DIVIDER /)
+(VOLTAGE 1.32:1.08:1.08)
+(PROCESS "fast:slow:slow")
+(TEMPERATURE -40.00:125.00:125.00)
+(TIMESCALE 1ns)
+)
