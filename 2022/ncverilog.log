@@ -1,0 +1,228 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Mar 30, 2022 at 19:45:16 CST
+ncverilog
+	-f gate.f
+		tb.sv
+		JAM_syn.v
+		-v
+		tsmc13_neg.v
+		+access+r
+		+nc64bit
+		+define+P1
+		+define+SDF
+		+ncmaxdelays
+file: tb.sv
+	module worklib.testfixture:sv
+		errors: 0, warnings: 0
+file: JAM_syn.v
+	module worklib.JAM_DW01_add_0:v
+		errors: 0, warnings: 0
+	module worklib.JAM_DW01_inc_0_DW01_inc_3:v
+		errors: 0, warnings: 0
+	module worklib.JAM:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+		Caching library 'tsmc13_neg' ....... Done
+	Elaborating the design hierarchy:
+  JAM_DW01_add_0 add_185 ( .A(result), .B({1'b0, 1'b0, 1'b0, Cost}), .CI(1'b0), 
+                       |
+ncelab: *W,CUVWSP (./JAM_syn.v,134|23): 1 output port was not connected:
+ncelab: (./JAM_syn.v,8): CO
+
+  DFFSX1 \MinCost_reg[9]  ( .D(n388), .CK(CLK), .SN(n556), .QN(n341) );
+                        |
+ncelab: *W,CUVWSP (./JAM_syn.v,182|24): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18583): Q
+
+  DFFSX1 \MinCost_reg[7]  ( .D(n390), .CK(CLK), .SN(n556), .QN(n339) );
+                        |
+ncelab: *W,CUVWSP (./JAM_syn.v,183|24): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18583): Q
+
+  DFFSX1 \MinCost_reg[6]  ( .D(n391), .CK(CLK), .SN(n556), .QN(n338) );
+                        |
+ncelab: *W,CUVWSP (./JAM_syn.v,184|24): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18583): Q
+
+  DFFRX1 \MatchCount_reg[1]  ( .D(n386), .CK(CLK), .RN(n554), .QN(n382) );
+                           |
+ncelab: *W,CUVWSP (./JAM_syn.v,187|27): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \MatchCount_reg[2]  ( .D(n385), .CK(CLK), .RN(n554), .QN(n381) );
+                           |
+ncelab: *W,CUVWSP (./JAM_syn.v,188|27): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 next_CAL_reg ( .D(n430), .CK(CLK), .RN(n672), .QN(n730) );
+                    |
+ncelab: *W,CUVWSP (./JAM_syn.v,212|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \round_reg[8]  ( .D(n355), .CK(CLK), .RN(n672), .Q(round[8]) );
+                      |
+ncelab: *W,CUVWSP (./JAM_syn.v,213|22): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[7]  ( .D(n356), .CK(CLK), .RN(n672), .Q(round[7]) );
+                      |
+ncelab: *W,CUVWSP (./JAM_syn.v,214|22): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[6]  ( .D(n357), .CK(CLK), .RN(n672), .Q(round[6]) );
+                      |
+ncelab: *W,CUVWSP (./JAM_syn.v,215|22): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[5]  ( .D(n358), .CK(CLK), .RN(n672), .Q(round[5]) );
+                      |
+ncelab: *W,CUVWSP (./JAM_syn.v,216|22): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[4]  ( .D(n359), .CK(CLK), .RN(n672), .Q(round[4]) );
+                      |
+ncelab: *W,CUVWSP (./JAM_syn.v,217|22): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[3]  ( .D(n360), .CK(CLK), .RN(n672), .Q(round[3]) );
+                      |
+ncelab: *W,CUVWSP (./JAM_syn.v,218|22): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[2]  ( .D(n361), .CK(CLK), .RN(n672), .Q(round[2]) );
+                      |
+ncelab: *W,CUVWSP (./JAM_syn.v,219|22): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[1]  ( .D(n362), .CK(CLK), .RN(n672), .Q(round[1]) );
+                      |
+ncelab: *W,CUVWSP (./JAM_syn.v,220|22): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[0]  ( .D(n364), .CK(CLK), .RN(n672), .Q(round[0]) );
+                      |
+ncelab: *W,CUVWSP (./JAM_syn.v,221|22): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[9]  ( .D(n354), .CK(CLK), .RN(n672), .Q(round[9]) );
+                      |
+ncelab: *W,CUVWSP (./JAM_syn.v,222|22): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[10]  ( .D(n353), .CK(CLK), .RN(n672), .Q(round[10]) );
+                       |
+ncelab: *W,CUVWSP (./JAM_syn.v,223|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[11]  ( .D(n352), .CK(CLK), .RN(n672), .Q(round[11]) );
+                       |
+ncelab: *W,CUVWSP (./JAM_syn.v,230|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[12]  ( .D(n351), .CK(CLK), .RN(n672), .Q(round[12]) );
+                       |
+ncelab: *W,CUVWSP (./JAM_syn.v,231|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[13]  ( .D(n350), .CK(CLK), .RN(n672), .Q(round[13]) );
+                       |
+ncelab: *W,CUVWSP (./JAM_syn.v,236|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 next_part_reg ( .D(n445), .CK(CLK), .RN(n672), .QN(n708) );
+                     |
+ncelab: *W,CUVWSP (./JAM_syn.v,245|21): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \round_reg[14]  ( .D(n349), .CK(CLK), .RN(n672), .Q(round[14]) );
+                       |
+ncelab: *W,CUVWSP (./JAM_syn.v,250|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \round_reg[15]  ( .D(n348), .CK(CLK), .RN(n672), .Q(round[15]) );
+                       |
+ncelab: *W,CUVWSP (./JAM_syn.v,259|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFSX1 \MatchCount_reg[0]  ( .D(n387), .CK(CLK), .SN(n672), .QN(n383) );
+                           |
+ncelab: *W,CUVWSP (./JAM_syn.v,276|27): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18583): Q
+
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Reading SDF file from location "./JAM_syn.sdf"
+        .MinCost(MinCost),
+                       |
+ncelab: *W,CUVMPW (./tb.sv,40|23): port sizes differ in port connection (9/10).
+	Annotating SDF timing data:
+		Compiled SDF file:     JAM_syn.sdf.X
+		Log file:              
+		Backannotation scope:  testfixture.u_JAM
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+	Annotation completed successfully...
+	SDF statistics: No. of Pathdelays = 2084  Annotated = 100.00% -- No. of Tchecks = 552  Annotated = 100.00% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	        2084	        2084	      100.00
+		      $width	         276	         276	      100.00
+		  $setuphold	         276	         276	      100.00
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.JAM:v <0x1aa5644b>
+			streams:   0, words:     0
+		worklib.testfixture:sv <0x154a1399>
+			streams:  11, words: 28968
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                  613      70
+		UDPs:                      92       1
+		Primitives:              1511       8
+		Timing outputs:           721      24
+		Registers:                118      31
+		Scalar wires:             819       -
+		Expanded wires:             7       1
+		Vectored wires:             1       -
+		Always blocks:              3       3
+		Initial blocks:             7       7
+		Cont. assignments:          1       1
+		Pseudo assignments:         1       1
+		Timing checks:            828     113
+		Interconnect:            1844       -
+		Delayed tcheck signals:   276      98
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.testfixture:sv
+Loading snapshot worklib.testfixture:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+*******************************
+** Simulation Start          **
+*******************************
+PATTERN:   1
+-------------- Cost Table --------------
+Jobs       0   1   2   3   4   5   6   7
+worker0:  11  25  53  41  59  32  25  59
+worker1:   4  11  25  11  59  31  53  11
+worker2:  11  59  15  11  15  15  53  53
+worker3:   4  59  32  34  53  41  34  59
+worker4:  15  32  41  34   4  59  34  32
+worker5:  41  59  59   4   4  41  34  34
+worker6:  53  31  25  41  59  32  31  53
+worker7:  11  31  25  11  34  34  53  32
+----------------------------------------------------------------------
+Get Valid at cycle:    791071
+receive MinCost/MatchCount= 119/ 3 , golden MinCost/MatchCount= 119/ 3
+----------------------------------------------------------------------
+*************************
+**  FUNCTION  CORRECT  **
+*************************
+
+Simulation complete via $finish(1) at time 7910705 NS + 0
+./tb.sv:180                 $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Mar 30, 2022 at 19:45:24 CST  (total: 00:00:08)

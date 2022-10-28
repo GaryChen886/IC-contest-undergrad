@@ -1,0 +1,12 @@
+隊號(Team number): 
+
+--- RTL category---
+使用之HDL語言: 
+使用之合成器:
+RTL檔案名稱(RTL filename):     
+Post-layout gate-level Netlist:	
+Report:	
+
+-----注意事項(annotation)--------------------------------------------------------
+ (其餘注意事項依各參賽隊伍的需求填寫，非為必要部份)
+

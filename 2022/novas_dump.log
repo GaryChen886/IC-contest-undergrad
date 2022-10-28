@@ -1,0 +1,99 @@
+ncsim(64) 15.20-s084
+Linux 5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022 x86_64
+CPU cores: 64
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1048576
+memorylocked	65536 kbytes
+maxproc			255949
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+LC_ADDRESS=lzh_TW
+LC_NAME=lzh_TW
+LC_MONETARY=lzh_TW
+LC_PAPER=lzh_TW
+LANG=en_US.UTF-8
+LC_IDENTIFICATION=lzh_TW
+LC_TELEPHONE=lzh_TW
+LC_MEASUREMENT=lzh_TW
+LC_TIME=lzh_TW
+LC_NUMERIC=lzh_TW
+USER=caid035
+LOGNAME=caid035
+HOME=/home/caid035
+PATH=/usr/cad/cadence/INCISIV/cur/tools/bin/64bit:/usr/cad/cadence/INCISIV/cur/tools/bin/64bit:/usr/cad/cadence/INCISIV/cur/tools/bin/64bit:/opt/RISCV/bin:/home/nfs_cad/mentor/calibre/cur/bin:/home/nfs_cad/synopsys/laker/cur/bin:/usr/cad/cadence/JASPER/cur/bin:/usr/cad/cadence/INNOVUS/cur/tools/celtic/bin:/usr/cad/cadence/INNOVUS/cur/tools/plato/bin:/usr/cad/cadence/INNOVUS/cur/tools/dfII:/usr/cad/cadence/INNOVUS/cur/tools/bin:/usr/cad/cadence/INNOVUS/cur/tools/tlfUtil/bin:/home/nfs_cad/synopsys/icc/cur/amd64/syn/bin:/home/nfs_cad/synopsys/synthesis/cur/amd64/syn/bin:/home/nfs_cad/synopsys/cosmos_scope/cur/ai_bin:/usr/cad/synopsys/primetime/cur/linux64/syn/bin:/home/nfs_cad/synopsys/verdi/cur/bin:/home/nfs_cad/synopsys/verdi/cur/nLint/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/home/nfs_cad/mentor/modelsim/10.2/modeltech/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+SHELL=/usr/bin/zsh
+TERM=xterm-256color
+DISPLAY=localhost:24.0
+XDG_SESSION_ID=15923
+XDG_RUNTIME_DIR=/run/user/1035
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1035/bus
+XDG_SESSION_TYPE=tty
+XDG_SESSION_CLASS=user
+MOTD_SHOWN=pam
+LANGUAGE=en_US.UTF-8
+SSH_CLIENT=223.138.36.2 34186 22
+SSH_CONNECTION=223.138.36.2 34186 140.116.245.122 22
+SSH_TTY=/dev/pts/22
+SHLVL=1
+PWD=/home/caid035/2022_univ_cell
+OLDPWD=/home/caid035
+ZSH=/home/caid035/.oh-my-zsh
+PAGER=less
+LESS=-R
+LSCOLORS=Gxfxcxdxbxegedabagacad
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LM_LICENSE_FILE=1717@lshc:26585@lsncku:5280@lstc
+MTI_VCO_MODE=64
+MGC_HOME=/home/nfs_cad/mentor/calibre/cur
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+LD_LIBRARY_PATH=/usr/cad/cadence/INNOVUS/cur/tools/lib:/home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/linux64:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/lib:/usr/cad/cadence/INCISIV/cur/tools/lib/64bit:/usr/cad/cadence/INCISIV/cur/tools/lib:
+SHLIB_PATH=/home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/linux64:
+PRIMETIME=/usr/cad/synopsys/primetime/cur
+SYNTHESIS=/home/nfs_cad/synopsys/synthesis/cur
+SYNOPSYS=/home/nfs_cad/synopsys/icc/cur
+SYN_MAN_DIR=/home/nfs_cad/synopsys/synthesis/cur/doc/syn/man
+MANPATH=:/home/nfs_cad/synopsys/synthesis/cur/doc/syn/man
+ENCOUNTER=/usr/cad/cadence/INNOVUS/cur/tools/fe
+OA_HOME=/usr/cad/cadence/INNOVUS/cur/oa
+_=/usr/cad/cadence/INCISIV/cur/tools/bin/ncverilog
+_IRUNROOT_=/usr/cad/cadence/INCISIV/cur/tools
+CDS_ARCH=lnx86
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx8664.15.20.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=ncverilog
+argv[1]=-f
+argv[2]=gate.f
+argv[3]=tb.sv
+argv[4]=JAM_syn.v
+argv[5]=-v
+argv[6]=tsmc13_neg.v
+argv[7]=+access+r
+argv[8]=+nc64bit
+argv[9]=+define+P1
+argv[10]=+define+SDF
+argv[11]=+ncmaxdelays
+88 profile - 100
+          CPU/Mem usage: 0.030 sys,  0.030 user,  90.87M sys,  0.00M vm
+89 VC callback profile - scalar:0 vector:0
+90 Wed Mar 30 19:45:17 2022
+91 pliAppInit
+92 FSDB_GATE is disabled.
+93 Enable Parallel Dumping.
+94 pliAppMiscSet: New Sim Round
+95 pliEntryInit
+96 LIBSSCORE=found /home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/linux64/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
+97 Sim process exit

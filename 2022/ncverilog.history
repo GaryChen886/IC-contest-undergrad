@@ -1,0 +1,58 @@
+s1(30Mar2022:10:20:56):  ncverilog -f ncvlog.f 
+s2(30Mar2022:10:22:13):  ncverilog -f ncvlog.f 
+s3(30Mar2022:13:01:22):  ncverilog tb.sv JAM_syn.v -v tsmc13_neg.v +define+P1 +define+SDF 
+s4(30Mar2022:13:02:35):  ncverilog tb.sv JAM_syn.v -v tsmc13_neg.v +define+P1 +define+SDF 
+s5(30Mar2022:13:03:11):  ncverilog tb.sv JAM.v -v tsmc13_neg.v +define+P1 +define+SDF 
+s6(30Mar2022:13:06:34):  ncverilog tb.sv JAM.v -v tsmc13_neg.v +define+P1 +define+SDF 
+s7(30Mar2022:13:09:56):  ncverilog tb.sv JAM.v -v tsmc13_neg.v +define+P1 +define+SDF 
+s8(30Mar2022:13:13:29):  ncverilog tb.sv JAM.v -v tsmc13_neg.v +define+P1 +define+SDF 
+s9(30Mar2022:13:15:14):  ncverilog tb.sv JAM.v -v tsmc13_neg.v +define+P1 +define+SDF 
+s10(30Mar2022:13:32:49):  ncverilog tb.sv JAM.v -v tsmc13_neg.v +define+P1 +define+SDF 
+s11(30Mar2022:13:34:54):  ncverilog tb.sv JAM.v +define+P1 +define+SDF +nc64bit +access+r 
+s12(30Mar2022:13:44:14):  ncverilog tb.sv JAM.v +define+P1 +define+SDF +nc64bit +access+r 
+s13(30Mar2022:13:51:37):  ncverilog tb.sv JAM.v +define+P1 +define+SDF +nc64bit +access+r 
+s14(30Mar2022:16:42:48):  ncverilog tb.sv handout/result_001/JAM.v +define+P3 
+s15(30Mar2022:16:43:30):  ncverilog tb.sv JAM_syn.v +define+P1 +define+SDF -v tsmc13_neg.v 
+s16(30Mar2022:16:43:52):  ncverilog tb.sv JAM.v +define+P1 +define+SDF -v tsmc13_neg.v 
+s17(30Mar2022:16:44:29):  ncverilog tb.sv JAM.v +define+P1 +define+SDF -v tsmc13_neg.v 
+s18(30Mar2022:16:44:36):  ncverilog tb.sv JAM.v +define+P2 +define+SDF -v tsmc13_neg.v 
+s19(30Mar2022:17:48:55):  ncverilog tb.sv JAM.v +define+P2 +define+SDF -v tsmc13_neg.v 
+s20(30Mar2022:17:49:06):  ncverilog tb.sv JAM.v +define+P1 +define+SDF -v tsmc13_neg.v 
+s21(30Mar2022:17:49:50):  ncverilog tb.sv JAM.v +define+P1 +define+SDF -v tsmc13_neg.v 
+s22(30Mar2022:17:54:35):  ncverilog tb.sv JAM.v +define+P1 +define+SDF -v tsmc13_neg.v 
+s23(30Mar2022:17:54:49):  ncverilog tb.sv JAM.v +define+P1 
+s24(30Mar2022:18:02:31):  ncverilog tb.sv JAM.v +define+P2 
+s25(30Mar2022:18:03:16):  ncverilog tb.sv JAM.v +define+P1 
+s26(30Mar2022:18:03:26):  ncverilog tb.sv JAM.v +define+P2 
+s27(30Mar2022:18:05:50):  ncverilog tb.sv JAM.v +define+P2 
+s28(30Mar2022:18:05:55):  ncverilog tb.sv JAM.v +define+P1 
+s29(30Mar2022:18:06:11):  ncverilog tb.sv JAM.v +define+P1 
+s30(30Mar2022:18:21:32):  ncverilog tb.sv JAM.v +define+P1 
+s31(30Mar2022:18:30:53):  ncverilog tb.sv JAM.v +define+P1 
+s32(30Mar2022:19:01:30):  ncverilog tb.sv JAM.v +define+P1 
+s33(30Mar2022:19:01:37):  ncverilog tb.sv JAM.v +define+P2 
+s34(30Mar2022:19:01:41):  ncverilog tb.sv JAM.v +define+P3 
+s35(30Mar2022:19:01:47):  ncverilog tb.sv JAM.v +define+P4 
+s36(30Mar2022:19:06:57):  ncverilog -f ncvlog.f 
+s37(30Mar2022:19:09:25):  ncverilog -f ncvlog.f 
+s38(30Mar2022:19:11:01):  ncverilog -f gate.f 
+s39(30Mar2022:19:11:34):  ncverilog -f gate.f 
+s40(30Mar2022:19:15:49):  ncverilog -f gate.f 
+s41(30Mar2022:19:26:12):  ncverilog -f ncvlog.f 
+s42(30Mar2022:19:26:41):  ncverilog -f gate.f 
+s43(30Mar2022:19:30:26):  ncverilog -f ncvlog.f 
+s44(30Mar2022:19:30:48):  ncverilog -f gate.f 
+s45(30Mar2022:19:33:45):  ncverilog -f ncvlog.f 
+s46(30Mar2022:19:35:31):  ncverilog -f ncvlog.f 
+s47(30Mar2022:19:36:06):  ncverilog -f gate.f 
+s48(30Mar2022:19:38:55):  ncverilog tb.sv JAM.v +define+P1 
+s49(30Mar2022:19:39:19):  ncverilog tb.sv JAM.v +define+P1 
+s50(30Mar2022:19:41:36):  ncverilog -f ncvlog.f 
+s51(30Mar2022:19:41:59):  ncverilog -f ncvlog.f 
+s52(30Mar2022:19:42:11):  ncverilog -f ncvlog.f 
+s53(30Mar2022:19:42:30):  ncverilog -f gate.f 
+s54(30Mar2022:19:42:55):  ncverilog -f gate.f 
+s55(30Mar2022:19:43:15):  ncverilog -f gate.f 
+s56(30Mar2022:19:44:30):  ncverilog -f gate.f 
+s57(30Mar2022:19:44:54):  ncverilog -f gate.f 
+s58(30Mar2022:19:45:16):  ncverilog -f gate.f 
