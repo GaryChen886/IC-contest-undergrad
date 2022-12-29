@@ -1,4 +1,3 @@
-
 `timescale 1ns/10ps
 module LBP ( clk, reset, gray_addr, gray_req, gray_ready, gray_data, lbp_addr, lbp_valid, lbp_data, finish);
 input   	clk;
